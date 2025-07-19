@@ -1,0 +1,26 @@
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-100 text-gray-800 font-sans">
+      <header className="bg-white shadow-md p-4">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
+          <h1 className="text-2xl font-bold text-blue-700">Cartório Fácil Brasil</h1>
+          <a
+            href="https://wa.me/5521999945488"
+            className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600"
+          >
+            Fale Conosco
+          </a>
+        </div>
+      </header>
+
+      <section className="bg-blue-50 py-12">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h2 className="text-3xl font-bold mb-4">Descomplicamos a burocracia do seu imóvel</h2>
+          <p className="text-lg text-gray-700">
+            Consultoria, regularização, certidões e muito mais. Tudo com agilidade e confiança.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
